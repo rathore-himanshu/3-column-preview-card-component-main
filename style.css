@@ -22,7 +22,7 @@ body {
     place-items: center;
     margin: 1.5rem;
 }
-button {
+a {
     padding: 0.75rem 1.5rem;
     background-color: white;
     border: 1px solid white;
@@ -30,7 +30,7 @@ button {
     font-size: 1rem;
     width: 10rem;
 }
-button:hover {
+a:hover {
     background-color: transparent;
     color: white;
 }
@@ -81,6 +81,6 @@ button:hover {
         max-width: 936px;
     }
     .learn_more {
-        padding-top: 1rem;
+        padding: 2rem 0rem 0.75rem 0rem;
     }
 }
